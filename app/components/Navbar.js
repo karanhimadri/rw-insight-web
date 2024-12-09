@@ -11,11 +11,11 @@ const Navbar = () => {
         >
           {/* Logo */}
           <div>
-            <a href="/" aria-label="RW Insight - Home">
+            <Link href="/" aria-label="RW Insight - Home">
               <h1 className="font-bold text-2xl text-orange-600 font-sans">
                 RW Insight.
               </h1>
-            </a>
+            </Link>
           </div>
 
           {/* Login & Register Buttons */}
@@ -54,7 +54,7 @@ export default Navbar;
 // <nav className="text-left flex-col mb-4 md:flex items-center justify-between px-8 py-4 ">
 //   {/* Brand */
 //   <div>
-//     <a
+//     <Link
 //       href="/"
 //       className="flex items-center gap-2 text-xl font-bold text-black"
 //       aria-label="Go to RW Insight Home Page"
@@ -64,7 +64,7 @@ export default Navbar;
 //         alt="RW Insight Logo - Your Source for Educational and Healthcare News"
 //         className="w-30 h-12" // Adjust size for logo
 //       />
-//     </a>
+//     </Link>
 //   </div>
 
 //   {/* Navigation Links */}
@@ -73,61 +73,61 @@ export default Navbar;
 //     role="navigation"
 //   >
 //     <li role="none">
-//       <a
+//       <Link
 //         href="/"
 //         className=" font-bold hover:text-blue-600"
 //         aria-label="Navigate to Home"
 //       >
 //         Home
-//       </a>
+//       </Link>
 //     </li>
 //     <li role="none">
-//       <a
+//       <Link
 //         href="/news"
 //         className=" font-bold hover:text-blue-600"
 //         aria-label="Navigate to News"
 //       >
 //         News
-//       </a>
+//       </Link>
 //     </li>
 //     <li role="none">
-//       <a
+//       <Link
 //         href="/education"
 //         className=" font-bold hover:text-blue-600"
 //         aria-label="Navigate to Education"
 //       >
 //         Education
-//       </a>
+//       </Link>
 //     </li>
 //     <li role="none">
-//       <a
+//       <Link
 //         href="/healthcare"
 //         className=" font-bold hover:text-blue-600"
 //         aria-label="Navigate to Healthcare"
 //       >
 //         HealthCare
-//       </a>
+//       </Link>
 //     </li>
 //   </ul>
 
 //   {/* Auth Buttons */}
 //   <div className="hidden md:flex gap-4">
-//     <a
+//     <Link
 //       href="/login"
 //       className="px-4 py-2 text-white bg-black rounded hover:bg-black"
 //       aria-label="Login to your account"
 //       rel="noopener noreferrer" // For external link security
 //     >
 //       Login
-//     </a>
-//     <a
+//     </Link>
+//     <Link
 //       href="/register"
 //       className="px-4 py-2 text-black border border-black rounded hover:bg-gray-100"
-//       aria-label="Register a new account"
+//       aria-label="Register Link new account"
 //       rel="noopener noreferrer" // For external link security
 //     >
 //       Register
-//     </a>
+//     </Link>
 //   </div>
 // //</nav>
 // //</header > */
